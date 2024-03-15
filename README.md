@@ -95,3 +95,8 @@ If you encounter any issues while setting up or running the application, refer t
 
 For any feedback, suggestions, or issues with the front-end application, please submit a pull request. We appreciate your input and will respond to your inquiries promptly.
 
+## Deployment
+**The App is deployed on Netlify**
+Here is the link:
+https://65f49556a4d56516e16a2d00--friendly-kheer-12bb5c.netlify.app/
+
