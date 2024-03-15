@@ -1,0 +1,147 @@
+/* Import Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.ml-5 {
+  margin-left: 3rem !important;
+}
+
+input[readonly] {
+  background-color: transparent;
+  border: 0;
+  font-size: 1em;
+}
+
+.side-navigation a {
+  font-size: 14px;
+  color: #2b639c;
+}
+
+.side-navigation a:hover {
+  background: #e6e6e6;
+}
+
+.horizontal-line {
+  background: #ba3b3b;
+  padding-top: 1.5px;
+  padding-bottom: 1px;
+}
+
+.search-tb-font td,
+.search-tb-font th {
+  font-size: 13px;
+}
+
+.s-add-item {
+  cursor: pointer;
+}
+
+.sm-tb-font td,
+.sm-tb-font th {
+  font-size: 14px;
+}
+
+.dash-summary-cell {
+  border: 1px solid #e6e6e6;
+  padding: 8px 10px;
+  background: #e6e6e6;
+}
+
+
+
+.admin-content {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.dash-summary-cell {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.dash-summary-cell p {
+  margin: 0;
+}
+
+.dash-summary-cell p:first-child {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+
+.admin-page {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.side-navigation {
+  background-color: #032546;
+  color: #080808;
+  padding: 20px;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.side-navigation .list-group-item {
+  color: #fff;
+  background-color: transparent;
+  border: #343a40;
+  border-radius: 2px;
+  margin-bottom: 5px;
+  padding: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+.side-navigation .list-group-item:hover {
+  background-color: #171c1a;
+  color: #fff;
+  border-radius: 12px;
+  padding-left: 2px;
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Styles for smaller devices */
+  body {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  /* Styles for extra small devices (phones) */
+  body {
+    font-size: 12px; 
+  }
+  .form-group {
+    margin-bottom: 0.5rem;
+  }
+  .ml-5 {
+    margin-left: 1rem !important;
+  }
+}

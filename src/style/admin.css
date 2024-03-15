@@ -1,0 +1,32 @@
+/* Import Bootstrap CSS */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+
+
+.admin-page {
+    width: 80%;
+}
+
+.admin-content {
+    width: 90%;
+}
+
+.float-right {
+    float: right !important;
+}
+
+/* Media query for screens smaller than 600px */
+@media (max-width: 600px) {
+    .admin-page,
+    .admin-content {
+        width: 100%;
+    }
+}
+
+/* Media query for screens smaller than 900px */
+@media (max-width: 900px) {
+    .admin-page,
+    .admin-content {
+        width: 95%;
+    }
+}
